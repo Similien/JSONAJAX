@@ -1,0 +1,25 @@
+@import "./reset.scss";
+@import "./vars.scss";
+@import "./util.scss";
+
+
+#header{
+    .container{
+        .header-main{
+            
+            display: flex;
+            align-items: center;
+            h1{
+                margin-right: 2rem;
+            }
+            .fetch-btn{
+                padding: 8px 14px;
+                width: 10rem;
+                height: 3rem;
+                background:$grn ;
+                color: $wht;
+                @include btn-def;
+            }
+        }
+    }
+}

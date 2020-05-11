@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  width: 80%; }
+
+#header .container .header-main {
+  display: flex;
+  align-items: center; }
+  #header .container .header-main h1 {
+    margin-right: 2rem; }
+  #header .container .header-main .fetch-btn {
+    padding: 8px 14px;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(10, 92, 10, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px; }
